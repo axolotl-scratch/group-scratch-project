@@ -1,7 +1,11 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
-const Button = (props) => {
-  return <button>{props.text}</button>;
-};
+const Button = () => {
+    return (
+        <button>
+            Login to Spotify
+        </button>
+    )
+}
 
 export default Button;
