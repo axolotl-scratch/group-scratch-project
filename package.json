@@ -26,12 +26,19 @@
   "homepage": "https://github.com/axolotl-scratch/group-scratch-project#readme",
   "dependencies": {
     "browserify": "^17.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
     "crypto-browserify": "^3.12.0",
     "express": "^4.17.1",
+    "node": "^16.10.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-hot-loader": "^4.13.0",
+    "react-modal": "^3.14.3",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0",
     "regenerator-runtime": "^0.13.9",
+    "request": "^2.88.2",
     "stream-browserify": "^3.0.0"
   },
   "devDependencies": {
