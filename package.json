@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/axolotl-scratch/group-scratch-project#readme",
   "dependencies": {
+    "axios": "^0.23.0",
     "browserify": "^17.0.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
@@ -39,7 +40,8 @@
     "react-router-dom": "^5.3.0",
     "regenerator-runtime": "^0.13.9",
     "request": "^2.88.2",
-    "stream-browserify": "^3.0.0"
+    "stream-browserify": "^3.0.0",
+    "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",

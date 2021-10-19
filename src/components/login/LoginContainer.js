@@ -5,9 +5,10 @@ import React, { Component } from "react";
 import LoginForm from "./LoginForm.js";
 
 const LoginContainer = (props) => {
+  
   return (
     <section>
-      <LoginForm onSubmit={props.onSubmit} text={props.text} />
+      <LoginForm onSubmit={onSubmit} text={props.text} />
     </section>
   );
 };

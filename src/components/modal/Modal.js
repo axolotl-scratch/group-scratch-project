@@ -10,10 +10,16 @@ import Input from "../Input";
 import Button from "../Button";
 
 const Modal = () => {
-  <section>
+  const onSubmit = (e) =>{
+
+  }
+
+  return(
+  <form onSubmit={onSubmit}>
     <Input classname="playlistName" value="playlistName" />
     <Button classname="modalsButton" value="playlistName" />
-  </section>;
+  </form>
+  )
 };
 
 export default Modal;
